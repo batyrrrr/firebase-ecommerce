@@ -1,0 +1,23 @@
+.commoon__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.5)), url('../assets//images//commonBg.jpg') center center no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commoon__section h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:768px) {
+    .commoon__section {
+        padding: 70px 0px;
+    }
+
+    .commoon__section h1 {
+        font-size: 1.2 rem;
+    }
+}

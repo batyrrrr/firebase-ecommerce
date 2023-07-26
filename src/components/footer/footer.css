@@ -1,0 +1,59 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: var(--primary-color);
+}
+
+.footer__text {
+    line-height: 30px;
+    color: #ffffffa0;
+}
+
+.footer__quick-links ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer__quick-links ul li {
+    background: transparent !important;
+}
+
+.footer__quick-links ul li a {
+    color: #ffffffa0;
+}
+
+.quick__links-title {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.footer__contact li {
+    color: #ffffff9c;
+}
+
+.footer__contact li p {
+    font-size: .9rem;
+}
+
+.footer__contact {
+    font-size: 1.2rem;
+}
+
+.footer__contact li span {
+    font-size: 1.2rem;
+}
+
+.footer__contact li p {
+    font-size: .9rem;
+}
+
+.footer__quick-links ul li span {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.footer__copyright {
+    color: #ffffffb8;
+    font-size: .9rem;
+}
